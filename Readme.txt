@@ -1,0 +1,18 @@
+
+npx expo start  
+
+npx expo start --clear
+
+
+npm i @types/react-native   -- install for suggestion or intellisense
+
+https://www.npmjs.com/package/react-native-responsive-screen react-native-responsive-screen
+
+
+https://www.vecteezy.com/free-vector/immunology     free icon download
+
+https://oblador.github.io/react-native-vector-icons/    icon search
+
+https://colorhunt.co/palette/716f81b97a95f6ae99f2e1c1 color palette
+
+
