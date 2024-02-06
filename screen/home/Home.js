@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, StyleSheet, Pressable, View, StatusBar, SafeAreaView, TouchableOpacity, ScrollView, Image } from 'react-native';
+import { Text, StyleSheet, Pressable, View, StatusBar, SafeAreaView, TouchableOpacity, ScrollView,  } from 'react-native';
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
@@ -16,6 +16,7 @@ import Header from './Header';
 import Testimonial from './Testimonial';
 import BookingHome from '../bookTest/BookingHome';
 import Test from '../bookTest/Test';
+
 
 
 // import FontAwesome6 from  '../../assets/';

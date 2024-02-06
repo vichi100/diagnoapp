@@ -14,13 +14,24 @@ const Header = (props) => {
         <SafeAreaView style={{ flex: 1, marginTop: StatusBar.currentHeight, }}>
             <View style={{ marginLeft: wp('2%') }}>
                 <Text style={styles.headLine}>Dr</Text>
-                <Text style={styles.headLine}>Meghani</Text>
+                <View style={{ flexDirection: 'row', alignItems: '' }}>
+                    <Text style={styles.headLine}>Meghani</Text>
+                    {/* <Text style={{fontSize:hp('1.4%'), fontWeight:600}}>Patho Lab</Text> */}
+                </View>
                 <View style={{
                     position: 'absolute', alignSelf: 'flex-end',
-                    marginTop: wp('3%'), paddingRight: wp('5%')
+                    marginTop: wp('4%'), paddingRight: wp('5%')
                 }}>
-                    <MaterialCommunityIcons name="microscope" color={"#FA7070"} size={hp('6%')} />
+                    {/* <MaterialCommunityIcons name="microscope" color={"#FA7070"} size={hp('6%')} /> */}
+                    {/* <Image style={{ height: hp('10%'), width: wp('25%'), resizeMode: 'contain' }} source={require('../../assets/assurance/pngegg.png')} /> */}
                 </View>
+                {/* <View style={{
+                    position: 'absolute', alignItems: 'center', marginTop: wp('7%'), paddingRight: wp('12%'),
+                    alignSelf: 'flex-end',
+                }}>
+                    <Text style={{ fontWeight: 600 }}>50</Text>
+                    <Text style={{ fontWeight: 600 }}>Years</Text>
+                </View> */}
             </View>
 
             {/* <View style={{ flexDirection: 'row', margin: wp('2%'), justifyContent: 'space-between', marginTop: hp('2%') }}>
@@ -42,7 +53,7 @@ const Header = (props) => {
             {/* Button style */}
 
 
-            <View style={{ alignItems: 'center', justifyContent: 'center', marginLeft: 40 , transform: [{ rotate: '15deg'}]}}>
+            <View style={{ alignItems: 'center', justifyContent: 'center', marginLeft: 40, transform: [{ rotate: '15deg' }] }}>
 
                 <View style={{ flexDirection: 'row' }}>
 
@@ -63,7 +74,7 @@ const Header = (props) => {
 
 
                         <Text style={{ textAlign: 'center', fontSize: hp('1.9%'), fontWeight: 600, marginTop: 60 }}>Book Test</Text>
-                        <Text style={{ textAlign: 'center', fontSize: hp('1.5%'), fontWeight: 500,  }}>Free Home Collection</Text>
+                        <Text style={{ textAlign: 'center', fontSize: hp('1.5%'), fontWeight: 500, }}>Free Home Collection</Text>
                         <View style={{
                             flex: 1,
                             justifyContent: 'flex-end', marginBottom: 10
